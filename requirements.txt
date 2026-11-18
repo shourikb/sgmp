@@ -1,0 +1,7 @@
+torch>=2.2
+torchvision
+timm>=0.9
+datasets
+pillow
+numpy
+matplotlib

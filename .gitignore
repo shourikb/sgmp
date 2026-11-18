@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.tgz
+runs/
+figs/
+logs/*
+!logs/.gitkeep
+smoke_data/
+smoke_runs/
