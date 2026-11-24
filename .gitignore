@@ -7,11 +7,12 @@ runs/*
 !runs/sgmp/
 runs/sgmp/*
 !runs/sgmp/bitmap_*.json
+!runs/fp32/
+runs/fp32/*
+!runs/fp32/best.pt
+!runs/fp32/final.json
 figs/
 logs/*
 !logs/.gitkeep
 smoke_data/
-smoke_runs/*
-!runs/sgmp/
-runs/sgmp/*
-!runs/sgmp/bitmap_*.json
+smoke_runs/
