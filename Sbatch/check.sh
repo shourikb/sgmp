@@ -1,5 +1,5 @@
 #!/bin/bash
-cd "$(dirname "$(readlink -f "$0")")"
+cd "$(dirname "${BASH_SOURCE[0]}")/.." || exit 1
 SINCE=${1:-$(date -d yesterday +%F)}
 
 if command -v sacct >/dev/null; then

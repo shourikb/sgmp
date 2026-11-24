@@ -8,7 +8,7 @@ from common import append_jsonl, device, evaluate, get_loaders, load_fp32
 from quant import (FP, calibrate_activations, init_weight_scales, layer_param_counts, qrange,
                    quantizable_layers, quantize_model, scale_mse, set_wbits)
 
-LADDER = [8, 6, 4, 3]
+LADDER = [8, 6, 4, 3, 2]
 
 @torch.no_grad()
 def mean_ce(model, batches, dev):
