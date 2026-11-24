@@ -3,9 +3,15 @@ __pycache__/
 *.pt
 *.pth
 *.tgz
-runs/
+runs/*
+!runs/sgmp/
+runs/sgmp/*
+!runs/sgmp/bitmap_*.json
 figs/
 logs/*
 !logs/.gitkeep
 smoke_data/
-smoke_runs/
+smoke_runs/*
+!runs/sgmp/
+runs/sgmp/*
+!runs/sgmp/bitmap_*.json

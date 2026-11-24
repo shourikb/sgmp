@@ -1,0 +1,31 @@
+{
+ "u": 5.0,
+ "algo": "random2",
+ "budget_mb": 7.053648,
+ "size_mb": 7.050576,
+ "sum_omega": 0.08370061405003071,
+ "holdout_top1": 88.99999856948853,
+ "val_top1": 84.25999879837036,
+ "val_ece": 1.6585437580943108,
+ "bitmap": {
+  "layer1.0.conv1": 6,
+  "layer1.0.conv2": 6,
+  "layer1.1.conv1": 4,
+  "layer1.1.conv2": 6,
+  "layer2.0.conv1": 8,
+  "layer2.0.conv2": 8,
+  "layer2.0.downsample.0": 8,
+  "layer2.1.conv1": 8,
+  "layer2.1.conv2": 6,
+  "layer3.0.conv1": 6,
+  "layer3.0.conv2": 8,
+  "layer3.0.downsample.0": 4,
+  "layer3.1.conv1": 4,
+  "layer3.1.conv2": 6,
+  "layer4.0.conv1": 4,
+  "layer4.0.conv2": 6,
+  "layer4.0.downsample.0": 6,
+  "layer4.1.conv1": 4,
+  "layer4.1.conv2": 4
+ }
+}
