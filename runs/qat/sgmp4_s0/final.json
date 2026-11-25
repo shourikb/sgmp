@@ -1,0 +1,16 @@
+{
+ "top1": 87.05999851226807,
+ "nll": 0.4479924738407135,
+ "ece": 2.4074118584394455,
+ "n": 5000,
+ "split": "val_final",
+ "size_mb": 5.63848,
+ "best_epoch": 9,
+ "lr": 0.0001,
+ "wbits": null,
+ "bitmap": "runs/sgmp/bitmap_sgmp_greedy_u4.json",
+ "abits": 8,
+ "alpha": 0.7,
+ "tau": 4.0,
+ "seed": 0
+}

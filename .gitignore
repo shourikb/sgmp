@@ -11,6 +11,8 @@ runs/sgmp/*
 runs/fp32/*
 !runs/fp32/best.pt
 !runs/fp32/final.json
+!runs/qat/
+!runs/qat/**
 figs/
 logs/*
 !logs/.gitkeep

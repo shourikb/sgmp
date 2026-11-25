@@ -1,0 +1,22 @@
+{
+ "data": "/home/hice1/sbanerjee332/scratch/imagenet100",
+ "ckpt": "runs/fp32/best.pt",
+ "out": "runs/qat/sgmp4_s0",
+ "wbits": null,
+ "bitmap": "runs/sgmp/bitmap_sgmp_greedy_u4.json",
+ "abits": 8,
+ "alpha": 0.7,
+ "tau": 4.0,
+ "epochs": 10,
+ "lr": 0.0001,
+ "wd": 2.5e-05,
+ "bs": 256,
+ "save_every": 2,
+ "select_on": "holdout",
+ "workers": 8,
+ "seed": 0,
+ "max_steps": null,
+ "log_every": 50,
+ "clip_grad": 0.0,
+ "lr_s_mult": 1.0
+}
